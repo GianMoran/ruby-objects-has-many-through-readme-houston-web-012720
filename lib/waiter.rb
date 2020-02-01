@@ -16,7 +16,6 @@ end
 def meals
   Meal.all.select do |meal|
     meal.waiter == self
-    binding.pry
   end
 end
 def best_tipper
